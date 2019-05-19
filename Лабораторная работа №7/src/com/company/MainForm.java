@@ -25,7 +25,7 @@ public class MainForm extends JFrame {
     MainForm() {
         ShowAction showAction = new ShowAction();
         ChooseAction chooseAction = new ChooseAction();
-        String headerInformationString = "<html>Гайсин Н.Р.<br>" +
+        String headerInformationString = "<html>Ивановский М.Н.<br>" +
                 "Задание: Ввести строки из файла, записать их в стек. Создать форму, строки на форму таблицу из двух колонок.<br>" +
                 "Одна колонка содержит строки в том порядке в котором они были в файле, а другая в обратном порядке<br>" +
                 "Реализовать на Фреймворке AWT, SWING и JavaFX</html>";
