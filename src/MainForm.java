@@ -1,5 +1,3 @@
-package com.company;
-
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
@@ -35,6 +33,10 @@ public class MainForm extends JFrame {
         Toolkit toolkit = Toolkit.getDefaultToolkit();
         Dimension dimension = toolkit.getScreenSize();
         setBounds(dimension.width / 2 - 350, dimension.height / 2 - 350, 700, 700);
+        headerPanel.setBackground(Color.RED);
+        leftPanel.setBackground(Color.BLACK);
+        rihgtPanel.setBackground(Color.BLACK);
+        wrap.setBackground(Color.RED);
         headerInfoLabel.setText(headerInformationString);
         showButton.addActionListener(showAction);
         chooseButton.addActionListener(chooseAction);
